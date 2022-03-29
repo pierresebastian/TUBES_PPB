@@ -17,11 +17,11 @@
             android:src="@drawable/icon_back"/>
 
         <ImageView
-            android:layout_width="46dp"
-            android:layout_height="40dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
             android:layout_gravity="end"
             android:layout_marginEnd="15dp"
-            android:src="@drawable/logo" />
+            android:src="@drawable/pismineswan" />
     </androidx.appcompat.widget.Toolbar>
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
-        android:text="HISTORY"
+        android:text="WISHLIST"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="25sp" />
@@ -39,15 +39,15 @@
         android:layout_width="330dp"
         android:layout_height="330dp"
         android:layout_below="@+id/history"
-        android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/img_history"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/history" />
+            app:srcCompat="@drawable/icon_jacket" />
 
         <RelativeLayout
             android:layout_width="260dp"
@@ -59,36 +59,26 @@
                 android:id="@+id/history_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="8 Feb 2020"
-                android:textSize="20sp"
-                android:textColor="@android:color/white"/>
+                android:text="PMO PUFFER JACKET"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/history_item"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/history_date"
-                android:text="( 3 item )"
-                android:textSize="15sp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="200dp"
-                android:text="20 $"
-                android:textSize="20sp"
-                android:textColor="@android:color/white"/>
-
+                android:text="Click to see details"
+                android:textSize="15sp" />
 
         </RelativeLayout>
 
         <ImageView
             android:layout_width="330dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="6dp"
             android:layout_below="@+id/img_history"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/bdr_text" />
 
     </RelativeLayout>
