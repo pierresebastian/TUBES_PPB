@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">EatKuy</string>
+
+    <!--Facebook Login -->
+    <string name="facebook_app_id">209651367120949</string>
+    <string name="fb_login_protocol_scheme">fb509856639685548</string>
+    <string name="title_activity_side_nav">SideNavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="restaurant_desc">A quality and relaxing rural country pub, run by award winning owners,
+        in the beautiful Berkshire village of Peasemore just a short drive from the A34 and junctions 13 and 14 of the M4.
+        The building and decor are charming and rustic, with elegant modern touches.
+        As all dishes are prepared in the pub kitchen, they are able to cater for most dietary needs, with most sauces, soups and gravy all created gluten free.
+        The Fox also offers gluten free bread and gluten free Yorkshire puddings on a Sunday. The Fox at Peasemore</string>
+
+</resources>

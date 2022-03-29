@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/close_detail"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/icon_close"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_food_detail"
+                android:layout_width="250dp"
+                android:layout_height="170dp"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/txt_food_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bdr_text"
+                android:textColor="@android:color/white"
+                android:text="12$"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bdr_text" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_food_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Food Name"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/etv_order"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingBottom="10dp"
+                android:backgroundTint="@android:color/white">
+            </EditText>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bdr_text" />
+
+        <TextView
+            android:id="@+id/txt_food_desc"
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:text="Food Desc"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_add_cart"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="ADD TO CART"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_rounded_corner"/>
+
+    </LinearLayout>
+
+</LinearLayout>
