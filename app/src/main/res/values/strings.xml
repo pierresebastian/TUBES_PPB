@@ -18,10 +18,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="restaurant_desc">A quality and relaxing rural country pub, run by award winning owners,
-        in the beautiful Berkshire village of Peasemore just a short drive from the A34 and junctions 13 and 14 of the M4.
-        The building and decor are charming and rustic, with elegant modern touches.
-        As all dishes are prepared in the pub kitchen, they are able to cater for most dietary needs, with most sauces, soups and gravy all created gluten free.
-        The Fox also offers gluten free bread and gluten free Yorkshire puddings on a Sunday. The Fox at Peasemore</string>
-
+    <string name="store_desc"><b>peaceminusone</b> is a Korean clothing brand that began in 2016 under artist G-DRAGON from BIGBANG.
+        The brand was created with the help of his stylist Gee Eun and is an extension of G-DRAGON’spersona.
+        The logo for peaceminusone was first seen on his solo album COUP D’ETAT that was released back in 2013.
+        Not only does it look like a peace sign, it actually derives from combining the G and the D in his name.</string>
+    <string name="exhibition">The brand began its first creative experience with a limited exhibition in 2015 located in the Seoul
+        Museum of Art called peaceminusone: Beyond the Stage. The exhibition was created to show the world that G-DRAGON perceives and reflects upon human nature while also showing a perfect utopia as the world “peace” implies.
+        It also brought together both pop culture and modern art with collaborations between various artists and G-DRAGON, as well as various items from BIGBANG videos.</string>
 </resources>
